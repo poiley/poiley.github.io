@@ -15,15 +15,12 @@
     text-align: center;
 }
 
-.icon {
-    color: black;
-}
-
 .buttonlabel {
     font-size: 2vw;
 }
 
 .icon {
+    color: black;
     width:  75px;
     height: 75px;
 }
