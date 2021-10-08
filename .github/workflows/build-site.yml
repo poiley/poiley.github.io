@@ -4,9 +4,9 @@ jobs:
     JobName:
         runs-on: ubuntu-latest
         env:
-	    GH_PAGES_BRANCH: gh-pages
-	    GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
-	steps:
-	 - uses: actions/checkout@v2
-	 - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
+            GH_PAGES_BRANCH: gh-pages
+            GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
+        steps:
+         - uses: actions/checkout@v2
+         - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
          - run: echo 'Building pelican site'
