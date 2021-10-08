@@ -25,15 +25,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+# Blog Roll
+LINKS = (('Home', 'https://poile.dev/'),
+         ('All Posts', 'https://www.python.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/poiley'),
+          ('Spotify', 'https://open.spotify.com/user/qqxne71rxqru593o2cg1y8avg?si=fb593f2b738f4402'),
+          ('Twitter', 'https://twitter.com/_poile_'))
 
 DEFAULT_PAGINATION = 3
 
