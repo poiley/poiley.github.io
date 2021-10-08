@@ -12,7 +12,7 @@ STATIC_PATHS = ['articles', 'downloads']
 
 ARTICLE_PATHS = ['articles',]
 ARTICLE_URL = 'articles/{date:%Y}/{date:%m}/{slug}.html'
-ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/{slug}.html'
 
 TIMEZONE = 'America/Los_Angeles'
 
