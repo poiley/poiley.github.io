@@ -6,6 +6,13 @@ SITENAME = 'blog'
 SITEURL = ''
 
 PATH = 'content'
+OUTPUT_PATH = 'output'
+
+STATIC_PATHS = ['articles', 'downloads']
+
+ARTICLE_PATHS = ['articles',]
+ARTICLE_URL = 'articles/{date:%Y}/{date:%M}/{slug}.html'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%M}/{slug}.html'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -32,3 +39,9 @@ DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = 'theme/pelican-cebong-theme'
+
+DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
+PAGINATED_DIRECT_TEMPLATES = (('blog', ))
+TEMPLATE_PAGES = {'home.html': 'index.html',}
