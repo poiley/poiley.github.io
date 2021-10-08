@@ -8,5 +8,5 @@ jobs:
             GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
         steps:
          - uses: actions/checkout@v2
-         - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
+         - uses: nelsonjchen/gh-pages-pelican-action@0.1.10
          - run: echo 'Building pelican site'
