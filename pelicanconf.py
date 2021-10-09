@@ -3,7 +3,7 @@
 
 AUTHOR = 'Ben Poile'
 SITENAME = 'blog'
-SITEURL = ''
+SITEURL = 'https://poile.dev'
 
 PATH = 'content'
 OUTPUT_PATH = 'output'
