@@ -16,8 +16,8 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #FDF6E3;
-    color: #8A887B;
+    background: #CF6679;
+    color: #AEB1B8;
     font-size: 16px;
     font-family: 'Crimson Text', 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*line-height: 1.429;*/
@@ -30,7 +30,7 @@ body {
 
 code{
     border:1px solid #eaeaea;
-    background-color:#f8f8f8;
+    background-color:black;
     font-size:11px;
     font-style:normal;
     color:#777;
@@ -66,7 +66,7 @@ h1 {
 
 h3, h4, h5, h6 { margin-top: .8em; }
 	
-hr { border: 1px dotted #8A887B; }
+hr { border: 1px dotted #AEB1B8; }
 
 /* Anchors */
 a {outline: 0;}
@@ -179,7 +179,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner h1 {font-size: 51px; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
         text-align:center;
-		color: #383732;
+		color: white;
 		display: block;
 		font-weight: normal;
 		margin: 0 0 .4em .2em;
@@ -203,7 +203,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		padding: 0;
 		text-align: center;
 		width: 800px;
-        font-style:italic;
+        	font-style:italic;
 		
 		border-radius: 5px;
 		-moz-border-radius: 5px;
@@ -216,9 +216,9 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner nav a:link, #banner nav a:visited {
 		display: inline-block;
 		/*height: 30px;*/
-        padding: 5px;
+        	padding: 5px;
 		text-decoration: none;
-        color: #8A887B;
+        	color: #AEB1B8;
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
@@ -238,9 +238,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		-webkit-border-bottom-left-radius: 5px;
 	}
 
-/*
-	Featured
-*****************/
+/**Featured**/
 #featured {
 	background: transparent;
 	margin-bottom: 2em;
@@ -267,9 +265,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
 #featured h3 a:hover, #featured h3 a:active {color: #fff;}
 
-/*
-	Body
-*****************/
+/**Body**/
 #content {
 	background: transparent;
 	margin-bottom: 2em;
@@ -282,9 +278,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	-webkit-border-radius: 10px;
 }
 
-/*
-	Extras
-*****************/
+/**Extras**/
 #extras {margin: 0 auto 3em auto; overflow: hidden;}
 
 #extras ul {list-style: none; margin: 0;}
@@ -379,7 +373,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
 .entry-title {text-align:center;font-size: 31px; font-style:italic; margin-bottom: 10px; margin-top: 0;}
-.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #8A887B;}
+.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #AEB1B8;}
 .entry-title a:visited {background-color: #fff;}
 
 .hentry .post-info * {font-style: normal;}
