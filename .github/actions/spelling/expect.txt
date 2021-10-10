@@ -7,3 +7,6 @@ poiley
 venv
 iphone
 publishconf
+choosealicense
+Lorem
+Ipsum
