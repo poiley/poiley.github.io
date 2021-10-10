@@ -3,7 +3,7 @@
 
 AUTHOR = 'Ben Poile'
 SITENAME = 'blog'
-SITEURL = 'https://poile.dev'
+SITEURL = 'https://poiley.github.io'
 # GITHUB_URL = 'https://github.com/poiley/poiley.github.io'
 
 
@@ -29,7 +29,8 @@ AUTHOR_FEED_RSS = None
 
 # Blog Roll
 LINKS = (('Home', 'https://poile.dev/'),
-         ('All Posts', 'https://www.python.org/'),)
+         ('All Posts', 'https://www.python.org/'),
+         ('Resume', 'https://docs.google.com/document/d/1T2MaWT8CHgR9t5hDoQqLDpXZYJ5eKKwgfJBa2nVceo0/edit?usp=sharing'))
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/poiley'),
