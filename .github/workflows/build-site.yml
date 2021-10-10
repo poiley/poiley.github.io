@@ -1,7 +1,11 @@
-name: Build site
-on: [push]
+name: Build and deploy Pelican site
+on: 
+    push:
+        branches:
+            - master
+
 jobs:
-    JobName:
+    build_deploy_ghpages:
         runs-on: ubuntu-latest
         env:
             GH_PAGES_BRANCH: gh-pages
@@ -9,4 +13,3 @@ jobs:
         steps:
          - uses: actions/checkout@v2
          - uses: nelsonjchen/gh-pages-pelican-action@0.1.10
-         - run: echo 'Building pelican site'
