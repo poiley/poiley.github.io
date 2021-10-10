@@ -42,7 +42,7 @@ DEFAULT_PAGINATION = 3
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = 'themes/cebong'
+THEME = 'theme'
 
 #DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
 #PAGINATED_DIRECT_TEMPLATES = (('blog', ))
