@@ -10,3 +10,8 @@ publishconf
 choosealicense
 Lorem
 Ipsum
+CODEOWNERS
+README
+getpelican
+workflow
+cebong
