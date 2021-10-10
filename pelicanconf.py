@@ -3,7 +3,7 @@
 
 AUTHOR = 'Ben Poile'
 SITENAME = 'blog'
-SITEURL = 'http://127.0.0.1:8000'
+SITEURL = 'https://poile.dev'
 # GITHUB_URL = 'https://github.com/poiley/poiley.github.io'
 
 
