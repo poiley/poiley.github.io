@@ -3,7 +3,9 @@
 
 AUTHOR = 'Ben Poile'
 SITENAME = 'blog'
-SITEURL = ''
+SITEURL = 'http://127.0.0.1:8000'
+# GITHUB_URL = 'https://github.com/poiley/poiley.github.io'
+
 
 PATH = 'content'
 OUTPUT_PATH = 'output'
