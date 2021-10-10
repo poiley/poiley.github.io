@@ -1,1 +1,9 @@
 poile
+blog
+github
+https
+http
+poiley
+venv
+iphone
+publishconf
