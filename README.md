@@ -27,4 +27,7 @@ pelican --list
 Deployment is done automatically thanks to Github Actions. Every time a commit is pushed to `master`, Github
 Actions builds the site with `publishconf.py` and deploys the site by commiting the output to the `gh-pages` branch.
 
-  
+
+## :mortar_board: License
+
+This project is developed under the [MIT](https://choosealicense.com/licenses/mit/) license.
