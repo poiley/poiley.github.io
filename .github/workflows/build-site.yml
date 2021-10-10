@@ -1,5 +1,7 @@
 name: Build and deploy Pelican site
 on: 
+    pull_request:
+        types: [closed]
     push:
         branches:
             - master
