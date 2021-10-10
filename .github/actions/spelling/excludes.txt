@@ -15,10 +15,10 @@ ignore$
 \.png$
 \.wav$
 ^\.github/
-\output/
+output/
 \.gitignore
-\LICENSE
-\Makefile
+LICENSE
+Makefile
 \.py$
-\requirements.txt
-\theme/
+requirements\.txt
+theme/
