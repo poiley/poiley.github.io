@@ -13,11 +13,12 @@ jobs:
             GH_PAGES_BRANCH: gh-pages
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         steps:
-         - uses: actions/checkout@v2
-         - uses: nelsonjchen/gh-pages-pelican-action@0.1.10
-         - run: |  
-            curl -X PUT \
-            -u poiley:${{ secrets.GITHUB_TOKEN }} \
-            -H "Accept: application/vnd.github.v3+json" \ 
-            https://api.github.com/repos/poiley/poiley.github.io/pages \
-            -d '{"cname":"poile.dev"}'
+          - uses: actions/checkout@v2
+          - uses: nelsonjchen/gh-pages-pelican-action@0.1.10
+          - uses: octokit/request-action@v2.x
+            id: cname_update
+            with:
+                route: GET /repos/{owner}/{repo}/pages
+                owner: poiley
+                repo: poiley.github.io
+                cname: poile.dev
