@@ -11,4 +11,4 @@ icons to white. I then created a [CODEOWNERS](https://github.com/poiley/poiley.g
 delete branches when a PR has been merged into master. I wanted to utilize Actions a bit more in the PR step, so I added a new workflow to perform a spell check on each 
 new post added to the repository.
 
-Later in the day, I added support for dependeabot via Github Actions, so security vulnerabilities in the site's dependencies will be automatically addressed.
+Later in the day, I added support for dependabot via Github Actions, so security vulnerabilities in the site's dependencies will be automatically addressed.

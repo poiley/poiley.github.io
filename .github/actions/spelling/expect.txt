@@ -15,3 +15,5 @@ README
 getpelican
 workflow
 cebong
+Kubernetes
+dependabot
