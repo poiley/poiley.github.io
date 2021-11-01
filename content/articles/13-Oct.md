@@ -2,7 +2,7 @@ Title: PR review process
 Date: 2021-10-12 16:30
 Slug: pr-review
 Authors: Ben Poile
-Summary: Summary of what I did today and what I learned.
+Summary: A new PR review process at work
 
 Today was spent mostly on approving PRs. There's a new project being worked on and there's a particular 
 process for what needs to be changed and what needs to be approved, so a few hours were spent today going

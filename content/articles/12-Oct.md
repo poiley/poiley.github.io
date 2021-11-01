@@ -2,7 +2,7 @@ Title: Documentation
 Date: 2021-10-12 16:30
 Slug: docs-migration
 Authors: Ben Poile
-Summary: Summary of what I did today and what I learned.
+Summary: Documentation migration
 
 Most of today was spent contacting other teams regarding service desk tickets and my ticket on 
 documentation migration. My primary focus was building a list of resources teams needed transferred,
