@@ -4,7 +4,6 @@ Slug: k8s-upgrade
 Authors: Ben Poile
 Summary: Performing a Kubernetes upgrade on Production 
 
-
 Today I set up time with the NOC team to get approval to make an upgrade to production services.
 After receiving approval, I prepared a report covering the release notes of the upgrades that
 will be performed for the rest of the team. I'll be up from 11pm - 5am doing this, so I'll likely

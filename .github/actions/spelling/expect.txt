@@ -19,3 +19,5 @@ Kubernetes
 dependabot
 k8s
 pr
+ci
+noc
