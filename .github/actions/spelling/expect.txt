@@ -21,3 +21,4 @@ k8s
 pr
 ci
 noc
+Terraform
