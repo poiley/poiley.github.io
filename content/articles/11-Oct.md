@@ -2,7 +2,7 @@ Title: Working with Kubernetes
 Date: 2021-10-11 16:30
 Slug: k8s-work
 Authors: Ben Poile
-Summary: Summary of what I did today and what I learned.
+Summary: Kubernetes-related project work
 
 Today I worked on Kubernetes-related projects which taught me a lot about the difference between Node Groups, Pods, Clusters, and the likes. The 
 configuration process is seems to be complicated but that seems more so dependent on the project’s vast scope rather than a fault of Kubernetes. 
