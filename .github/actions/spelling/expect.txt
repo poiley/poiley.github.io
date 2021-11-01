@@ -17,3 +17,5 @@ workflow
 cebong
 Kubernetes
 dependabot
+k8s
+pr

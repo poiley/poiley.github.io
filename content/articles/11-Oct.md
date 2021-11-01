@@ -1,6 +1,6 @@
 Title: Working with Kubernetes
 Date: 2021-10-11 16:30
-Slug: work
+Slug: k8s-work
 Authors: Ben Poile
 Summary: Summary of what I did today and what I learned.
 
